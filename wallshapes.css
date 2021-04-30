@@ -1,11 +1,21 @@
 html,body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', serif;
 }
 .hero.is-info {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('img/wallshape5.PNG') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.box.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    );
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,9 +29,18 @@ html,body {
   padding: 3rem 0;
   line-height: 1.5;
 }
-.title {
+.title.large {
+  font-family: 'Roboto Slab', serif;
   font-size: 4.5rem;
 }
 .subtitle {
   font-size: 1.5rem;
+}
+p {
+  line-height: 1.5em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
