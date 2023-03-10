@@ -1,0 +1,54 @@
+html,body {
+  font-family: 'Open Sans', serif;
+}
+
+.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url('img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    );
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav, .is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.title.large {
+  font-family: 'Open Sans', serif;
+  font-size: 3rem;
+}
+
+p {
+  line-height: 1.5em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+hr.style1 {
+  text-align: left;
+}
+hr.style1:before {
+  width: 2rem;
+  border-top: solid 2px #96CF24;
+  height: 2px;
+  margin-top: -1px;
+}
