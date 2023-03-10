@@ -1,0 +1,3 @@
+[submodule "findclarity"] 
+  path = findclarity 
+  url = git://github.com/brunabaudel/wallshapes_app.git
